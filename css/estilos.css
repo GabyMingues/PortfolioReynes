@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+:root {
+	--border:1px solid green;
+}
+
+body{
+	background-color: #F2F2F2;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	background-color: #F2F2F2;
+	border: var(--border);
+}
+
+.wrapp{
+	display: flex;
+	flex-direction: column;
+	width: 1920px;
+	border: var(--border);	
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	background-color: #333333;
+	widht: 1920px;
+	height: 150px;
+		
+}
+
+header .logo{
+	margin-left: 75px;
+	margin-top: 30px;
+	
+}
+
+header .logo img{
+	width: 100%;
+}
+
+header nav {
+		border: var(--border);
+	margin-top: 63px;
+	
+	
+}
+
+header nav li{
+	font-family: "Bely Display";
+	font-size: 30px;
+	
+}
