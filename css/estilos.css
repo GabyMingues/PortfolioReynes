@@ -4,6 +4,17 @@
 	--border:1px solid green;
 }
 
+@font-face{
+	font-family: BelyBold;
+	src: url("../font/Bely Bold.ttf");
+	
+	font-family: InterReg;
+	src: url("../font/Interstate Regular.ttf");
+	
+	font-family: InterCondLight;
+	src: url("../font/Interstate-LightCondensed.otf")
+}
+
 body{
 	background-color: #F2F2F2;
 	margin: 0px;
@@ -19,7 +30,25 @@ body{
 	width: 1920px;
 	border: var(--border);	
 }
+/*Estilos Tipografías*/
+h1{ 
+	/*Títulos principales*/
+	font-family: BelyDisplay;
+	font-size: 30px;
+}
+h2{ 
+	/*Títulos secundarios*/
+	font-family: BelyBold;
+	font-size: 35px
+}
 
+
+/*Links*/
+a{
+	text-decoration-line: none;
+}
+
+/* Cabecera*/
 header{
 	display: flex;
 	justify-content: space-between;
@@ -50,5 +79,12 @@ header nav {
 header nav li{
 	font-family: "Bely Display";
 	font-size: 30px;
+	list-style: none;
 	
+}
+
+
+/* apartado 2, apps */
+.apptrabajos{
+	display: flex;
 }
